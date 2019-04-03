@@ -1,0 +1,105 @@
+.ui.text.menu .item {
+    color: white;
+    font-size: medium;
+}
+
+.ui.text.menu .right.menu{
+    padding-left: 450px;
+}
+
+.ui.text.menu .item:hover {
+    color: grey;
+}
+
+.main {
+    background-color: #111;
+    grid-column: 1 / 13;
+    height: 700px;
+}
+
+.btn {
+    cursor: pointer;
+    color: white;
+    background-color: rgba(51,51,51,0.5);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 10px;
+    border: none;
+    font-size: large;
+    outline: none;
+    font-weight: 500;
+    font-size: initial;
+}
+
+.btn:hover {
+    background-color: rgba(255,255,255,0.8);
+    color: black;
+    transition: 0ms;
+}
+
+.desc {
+    width: 370px;
+    line-height: 1.3;
+    padding-top: 2rem;
+    font-size: 18px;
+}
+
+.txt {
+    padding-top: 15rem;
+    padding-left: 4rem;
+    color: #fff;
+}
+
+.heading {
+    font-size: 50px;
+}
+
+.extra {
+    height: 190px;
+    background-image: linear-gradient(180deg, transparent, rgba(37,37,37,0.61), #111)
+}
+
+@media only screen and (max-width: 540px) {
+    .ui.text.menu {
+        height: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .ui.text.menu .item {
+        padding-left: 0.5%;
+        padding-right: 0.01%;
+    }
+    
+    .ui.text.menu .link.item {
+        padding-top: 15px;
+        font-size: small;
+    }
+    
+    .ui.text.menu .logo.item {
+        padding-top: 25px;
+    }
+
+    .ui.text.menu .right.menu .item .ui.icon.input{
+        position: relative;
+        top: 3px;
+        margin: -.5em 0;
+        height: 30px;
+        width: 150px;
+        visibility: hidden;
+    }
+
+    .ui.text.menu .right.menu .ui.simple.dropdown.item .dropdown.icon{
+        padding-left: 0px;
+    }
+
+    .app {
+        font-size: 50%;
+    }
+
+    .txt {
+        padding-left: 10px;
+    }
+}
