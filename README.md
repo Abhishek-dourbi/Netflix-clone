@@ -1,5 +1,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## `Running Project`
+
+Project can be seen here :
+  http://netflix-abhi-clone.surge.sh/
+ 
+Still a lot of work to do but will appreciate the feedback 
+
 ## Available Scripts
 
 In the project directory, you can run:
