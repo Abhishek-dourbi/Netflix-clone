@@ -3,7 +3,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## `Running Project`
 
 Project can be seen here :
-  http://netflix-abhi-clone.surge.sh/
+  http://net-flix-clone.surge.sh/
  
 Still a lot of work to do but will appreciate the feedback 
 
